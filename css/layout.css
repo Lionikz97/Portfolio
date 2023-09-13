@@ -223,6 +223,20 @@ ul#nav li.current a { color: #F06000; }
    margin-right: 15px;
    font-size: 20px;
 }
+#about .resumecv {
+   padding: 16px 35px;
+   text-decoration: none;
+   border: RGB(255,181,0) 1px solid;
+   border-radius: 35px;
+   letter-spacing: 2px;
+   color: #fff;
+   position: absolute;
+   margin: 10% 35%;
+}
+#about .resumecv:hover {
+   background-color: RGB(255,181,0);
+}
+	
 
 
 /* ------------------------------------------------------------------ */
