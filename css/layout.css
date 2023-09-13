@@ -212,18 +212,6 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
-   margin-top: 6px;
-   background: #444;
-}
-#about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
-}
-#about .download .button i {
-   margin-right: 15px;
-   font-size: 20px;
-}
-#about .resumecv {
    padding: 16px 35px;
    text-decoration: none;
    border: RGB(255,181,0) 1px solid;
@@ -233,8 +221,20 @@ ul#nav li.current a { color: #F06000; }
    position: absolute;
    margin: 10% 35%;
 }
+#about .download .button:hover {
+   background-color: RGB(255,181,0); 	
+}
+#about .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+#about .resumecv {
+   margin-top: 6px;
+   background: #444;
+}
 #about .resumecv:hover {
-   background-color: RGB(255,181,0);
+   background: #fff;
+   color: #2B2B2B; 
 }
 	
 
